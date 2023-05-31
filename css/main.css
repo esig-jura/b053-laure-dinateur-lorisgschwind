@@ -19,6 +19,7 @@ a {
 
 p{
     line-height: 1.5;
+
 }
 
 h1,
@@ -123,6 +124,54 @@ footer nav ul li img:hover{
 }
 
 .michel{
+    max-width: 200px;
     display: block;
     margin: 0 auto;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#infos{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+}
+
+#contact{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627;
+}
+.contact-info{
+    list-style-type: none;
+}
+
+.realisations{
+    width: 100%;
+    list-style-type: none;
+}
+.realisations img{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    display: block;
+
+}
+.realisations img figure figcaption{
+    text-align: center;
 }
