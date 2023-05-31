@@ -162,16 +162,37 @@ main {
 }
 
 .realisations{
-    width: 100%;
+    padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 .realisations img{
-    width: 50%;
-    float: left;
-    padding: 20px;
-    display: block;
+    max-width: 350px;
+    flex-basis: calc(50% - 10px);
+    margin: 0;
+    justify-content: center;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+.realisations figure{
+    margin: 0;
 
 }
-.realisations img figure figcaption{
-    text-align: center;
+ .realisations figcaption{
+     color: black;
+     font-size: large;
+     background-color: lightgray;
+     background-size: 25px;
+     padding: 10px;
+ }
+
+.realisations li {
+    padding: 1rem 1%;
+
 }
